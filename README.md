@@ -57,7 +57,7 @@ pip install fastapi uvicorn pymongo
 ### 4. Run the API Server
 Start the development server by running this command where your `main.py` is located:
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --reload --port 8000
 ```
 Your API will now be live at: **`http://127.0.0.1:8000`**
 
